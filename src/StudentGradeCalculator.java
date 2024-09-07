@@ -6,7 +6,7 @@ import java.util.Scanner;
 class Student{
     int physics, chemistry, biology, maths, physicalEducation;
 
-    public void input(){
+    public void input() {
         Scanner phy = new Scanner(System.in);
         System.out.println("Enter Physics Marks");
         int physics = phy.nextInt();
