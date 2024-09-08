@@ -8,7 +8,7 @@ class ATM {
     int PIN = 2208;       //    Default account PIN is 2208
     int Balance;
 
-    public void checkPIN() {
+    public void checkPIN(){
         System.out.println("Please Enter Your PIN");
         Scanner sc = new Scanner(System.in);
         int enteredPIN = sc.nextInt();
